@@ -11,4 +11,4 @@ Here you can find a list of my Python projects hosted on GitHub.
   {% if file.path contains '.py' %}
 - [{{ file.name }}]({{ file.path }})
   {% endif %}
-{% end %}
+{% endfor %}
