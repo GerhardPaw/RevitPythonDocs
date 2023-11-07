@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title:
 ---
 
 # IronPython Code for Revit 2023
