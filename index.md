@@ -3,12 +3,12 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Python Scripts
+# IronPython Code for Revit 2023
 
-Here you can find a list of my Python projects hosted on GitHub.
+Hyperlinks lead to file on GitHub
 
 {% for file in site.static_files %}
   {% if file.path contains '.py' %}
-- [{{ file.name | remove: '_ironpython_2023.py' }}]({{ file.path }})
+- [{{ file.name | remove: '_ironpython_2023.py' }}](https://github.com/GerhardPaw/RevitPythonDatabase/blob/main/{{ file.path }})
   {% endif %}
 {% endfor %}
