@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # Welcome to My Python Scripts
 
 Here you can find a list of my Python projects hosted on GitHub.
