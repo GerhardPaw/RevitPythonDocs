@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title:
 ---
 
 Select Python and Revit Version:
