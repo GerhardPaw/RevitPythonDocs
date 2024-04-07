@@ -126,7 +126,8 @@ OUT = active_sheet
 **Example** code demonstrates the use of the task in a larger workflow./b This gives the ability to use all possible API methods and properties related to the task.
 See this link for an example: [Create Material](https://www.revitpythondocs.com/?search=Create%20Material)
 
-Larger, Multi-Task Scripts: Scripts encompassing multiple tasks or complex functionalities should be tagged as tool in their filename. Include a docstring at the beginning of the script, briefly explaining its purpose and any necessary background information.
+A **Tool** is a larger, scripts encompassing multiple tasks or complex functionalities. Include a docstring at the beginning of the script, briefly explaining its purpose and any necessary background information.
+See this example for a tool:([Model Curve By Curve Endpoints](https://www.revitpythondocs.com/?search=Tool%20Model%20Curve%20By%20Curve%20Endpoints)
 
 Contributing to the Repository
 We welcome contributions from everyone! To contribute your script:
