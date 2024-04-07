@@ -142,10 +142,11 @@ Let´s look at an example and break it down:
 
 <img src="https://github.com/GerhardPaw/RevitPythonDocs/assets/97836426/999dd785-b5a2-43a6-83da-b1d96026f122" width="500" >
 
-+ **CreateMaterial_basic_ironpython_cpython_2022_2023_2024.py**
-+ **CreateMaterial_advanced_ironpython_cpython_2022_2023_2024.py**
-+ **CreateMaterial_function_ironpython_cpython_2022_2023_2024.py**
-+ **CreateMaterial_example_ironpython_cpython_2022_2023_2024.py**
+
+**CreateMaterial_basic_ironpython_cpython_2022_2023_2024.py**<br>
+**CreateMaterial_advanced_ironpython_cpython_2022_2023_2024.py**<br>
+**CreateMaterial_function_ironpython_cpython_2022_2023_2024.py**<br>
+**CreateMaterial_example_ironpython_cpython_2022_2023_2024.py**<br>
 
 + The **script name** is the first part of the file name. Use CamelCase and the phrases will be seperated on the webpage later.
 + Provide a single **code version**: **basic, advanced, function, example** or **tool**.
@@ -159,22 +160,22 @@ Note that a script that does not work the same for both Python versions or for d
 
 A more complex example to show how many files one script can contain could be a script that works different for both python versions and additionally changed from Revit version 22 to 23:
 
-+ **ExampleScript_basic_ironpython_2022.py**
-+ **ExampleScript_basic_ironpython_2023_2024.py**
-+ **ExampleScript_basic_cpython_2022.py**
-+ **ExampleScript_basic_cpython_2023_2024.py**
-+ **ExampleScript_advanced_ironpython_2022.py**
-+ **ExampleScript_advanced_ironpython_2023_2024.py**
-+ **ExampleScript_advanced_cpython_2022.py**
-+ **ExampleScript_advanced_cpython_2023_2024.py**
-+ **ExampleScript_function_ironpython_2022.py**
-+ **ExampleScript_function_ironpython_2023_2024.py**
-+ **ExampleScript_function_cpython_2022.py**
-+ **ExampleScript_function_cpython_2023_2024.py**
-+ **ExampleScript_example_ironpython_2022.py**
-+ **ExampleScript_example_ironpython_2023_2024.py**
-+ **ExampleScript_example_cpython_2022.py**
-+ **ExampleScript_example_cpython_2023_2024.py**
+**ExampleScript_basic_ironpython_2022.py**<br>
+**ExampleScript_basic_ironpython_2023_2024.py**<br>
+**ExampleScript_basic_cpython_2022.py**<br>
+**ExampleScript_basic_cpython_2023_2024.py**<br>
+**ExampleScript_advanced_ironpython_2022.py**<br>
+**ExampleScript_advanced_ironpython_2023_2024.py**<br>
+**ExampleScript_advanced_cpython_2022.py**<br>
+**ExampleScript_advanced_cpython_2023_2024.py**<br>
+**ExampleScript_function_ironpython_2022.py**<br>
+**ExampleScript_function_ironpython_2023_2024.py**<br>
+**ExampleScript_function_cpython_2022.py**<br>
+**ExampleScript_function_cpython_2023_2024.py**<br>
+**ExampleScript_example_ironpython_2022.py**<br>
+**ExampleScript_example_ironpython_2023_2024.py**<br>
+**ExampleScript_example_cpython_2022.py**<br>
+**ExampleScript_example_cpython_2023_2024.py**<br>
 
 As you can see, files that have the same script name will be combined into one button on the webpage.
 It is your choice if you want to contribute the code in one or multiple versions.
