@@ -20,7 +20,9 @@ For scripts where the title might not sufficiently explain the purpose, include 
 File Naming Rules
 Method or Task Representation: Scripts that encapsulate methods or tasks should be categorized into one of four versions: basic, advanced, function, example. Each version addresses a different level of complexity or use-case scenario.
 
-basic: The most simple but working code that demonstrates the use of the task.
+Basic code represents the most simple but working code that demonstrates the use of the task.
+A basic code must not handle errors or varying inputs what is why it will not work for every scenario. Also it will not give user feedback and might fail silently.
+See the following basic code for getting the active sheet.
 
 <pre lang="python"><code>
 import clr
@@ -40,7 +42,11 @@ OUT = active_sheet
 </code></pre>
 
 Advanced code raises errors where necessary to give proper feedback to users.
-If the script uses node inputs these have to be corretly handled for single elements and lists.
+Keep in mind that Dynamo already handles pretty much all exceptions itself what is why an excessive error handling is not necessary.
+The error handling should focus on raising exceptions for null values to nprevent the code from failing silently.
+If the script uses node inputs these have to be correctly handled for single elements and lists.
+This code should work for all possible input scenarios and give user feedback in any possible case.
+See the following advanced code for getting the active sheet.
 
 <pre lang="python"><code>
 import clr
