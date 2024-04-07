@@ -132,6 +132,7 @@ A **Tool** is a larger, scripts encompassing multiple tasks or complex functiona
 See this example for a tool:[Model Curve By Curve Endpoints](https://www.revitpythondocs.com/?search=Tool%20Model%20Curve%20By%20Curve%20Endpoints)
 
 **Contributing to the Repository**
+
 We welcome contributions from everyone! To contribute your files it is **essential to follow the file name convention**. 
 The process of loading your files to [revitpythondocs.com](https://www.revitpythondocs.com) is **fully automated** and can only work if you filenames are correct.
 
@@ -146,6 +147,17 @@ Let´s look at an example and break it down:
 + Provide a single or multiple **python version**. Use can use **ironpython**, **cpython** or **ironpython_cpython**.
 + Providea single or multiple **Revit version**. 
 
+A script for creating a material, that works for ironpython, cpython, Revit 2022-2024 and is provided with all 4 possible code versions will consist of the following files:
+
++ CreateMaterial_basic_ironpython_cpython_2022_2023_2024.py
++ CreateMaterial_advanced_ironpython_cpython_2022_2023_2024.py
++ CreateMaterial_function_ironpython_cpython_2022_2023_2024.py
++ CreateMaterial_example_ironpython_cpython_2022_2023_2024.py
+
+As you can see, files that have the same script name will be combined into one button on the webpage.
+It is your choice if you want to contribute the code in one or multiple versions.
+Please add only Python version (ironpython, cpython) and Revit version (2022,2023,2024) attributes if you tested the script for the corresponding version. 
+
 Fork the Repository: Start by forking this repository to your GitHub account.
 Add Your Script: Place your script in the appropriate directory (Dynamo or pyRevit). Ensure it adheres to the naming rules and guidelines mentioned above.
 Document Your Code: Include comments, a docstring if necessary, and ensure your code follows the prescribed coding style.
@@ -153,4 +165,4 @@ Create a Pull Request (PR): Once you've added your script, create a pull request
 Review: Your PR will be reviewed by the community. This process ensures that contributions align with the project's goals and quality standards. You may be asked to make revisions based on feedback.
 By following these guidelines, we can together build a valuable resource for all Revit users looking to leverage Python for automation and customization. Your contributions not only help grow this repository but also support the broader Revit community in exploring new possibilities.
 
-Thank you for contributing and happy scripting!
+**Thank you for contributing and happy scripting!**
