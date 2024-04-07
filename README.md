@@ -20,9 +20,70 @@ For scripts where the title might not sufficiently explain the purpose, include 
 File Naming Rules
 Method or Task Representation: Scripts that encapsulate methods or tasks should be categorized into one of four versions: basic, advanced, function, example. Each version addresses a different level of complexity or use-case scenario.
 
-basic: Introduces fundamental concepts or starter code.
-advanced: Builds upon basic concepts with more sophisticated logic or Revit API usage.
-function: Encapsulates reusable logic or functionalities.
+basic: The most simple but working code that demonstrates the use of the task.
+
+<pre lang="python"><code>
+import clr
+clr.AddReference("RevitServices")
+
+from RevitServices.Persistence import DocumentManager
+from Autodesk.Revit.DB import BuiltInCategory, ElementId
+
+doc = DocumentManager.Instance.CurrentDBDocument
+
+active_view = doc.ActiveView
+
+if active_view.Category.Id == ElementId(BuiltInCategory.OST_Sheets):
+    active_sheet = active_view
+
+OUT = active_sheet
+</code></pre>
+
+Advanced code raises errors where necessary to give proper feedback to users.
+If the script uses node inputs these have to be corretly handled for single elements and lists.
+
+<pre lang="python"><code>
+import clr
+clr.AddReference("RevitServices")
+
+from RevitServices.Persistence import DocumentManager
+from Autodesk.Revit.DB import BuiltInCategory, ElementId
+
+doc = DocumentManager.Instance.CurrentDBDocument
+
+active_view = doc.ActiveView
+
+if active_view.Category.Id != ElementId(BuiltInCategory.OST_Sheets):
+    raise TypeError("Active view is not of category Sheets")
+
+OUT = active_view
+</code></pre>
+
+Function code encapsulates the whole task into a function and calls it accordingly.
+This code should handle errors and work for single element and list inputs.
+
+<pre lang="python"><code>
+import clr
+clr.AddReference("RevitServices")
+
+from RevitServices.Persistence import DocumentManager
+from Autodesk.Revit.DB import BuiltInCategory, ElementId
+
+doc = DocumentManager.Instance.CurrentDBDocument
+
+def get_active_sheet():
+
+    active_view = doc.ActiveView
+    if active_view.Category.Id != ElementId(BuiltInCategory.OST_Sheets):
+        raise TypeError("Active view is not of category Sheets")
+
+    return active_view
+
+active_sheet = get_active_sheet()
+
+OUT = active_sheet
+</code></pre>
+
 example: Provides fully-fledged examples demonstrating practical applications.
 Larger, Multi-Task Scripts: Scripts encompassing multiple tasks or complex functionalities should be tagged as tool in their filename. Include a docstring at the beginning of the script, briefly explaining its purpose and any necessary background information.
 
