@@ -142,9 +142,9 @@ Let´s look at an example and break it down:
 **CreateMaterial_advanced_ironpython_cpython_2022_2023_2024.py**
 
 + The **script name** is the first part of the file name. Use CamelCase and the phrases will be seperated on the webpage later.
-+ Provide the **code version**: **basic, advanced, function, example** or **tool**.
-+ Provide a **python version**. Use can use ironpython, cpython or ironpython_cpython.
-+ Provide the 
++ Provide a single **code version**: **basic, advanced, function, example** or **tool**.
++ Provide a single or multiple **python version**. Use can use **ironpython**, **cpython** or **ironpython_cpython**.
++ Providea single or multiple **Revit version**. 
 
 Fork the Repository: Start by forking this repository to your GitHub account.
 Add Your Script: Place your script in the appropriate directory (Dynamo or pyRevit). Ensure it adheres to the naming rules and guidelines mentioned above.
