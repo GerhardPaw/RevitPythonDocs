@@ -1,22 +1,44 @@
 # RevitPythonDocs
 Collection of Python Scripts for Dynamo and pyRevit
 
-Welcome to our repository dedicated to providing Python scripts for Revit, focusing on Dynamo and PyRevit extensions. This repository aims to foster a community-driven collection of scripts to enhance productivity and extend functionality within Revit through Python scripting.
+**Welcome** to the revitpythondocs repository.<br>
+This repository aims to foster a community-driven collection of scripts to enhance productivity and extend functionality within Revit through Python scripting.
+The Python files contributed to this repo will automatically be loaded on revitpythondocs.com. 
 
-Short Introduction
-This repository hosts Python scripts tailored for Revit, supporting both Dynamo and PyRevit platforms. Whether you're automating repetitive tasks, extending Revit's capabilities, or exploring the vast possibilities of computational design within Revit, you'll find a growing library of scripts contributed by professionals and enthusiasts alike.
+**General Coding Guidelines**<br>
+This repo is dependent on your contribution.
+To maintain a proper standard of quality and ensure consistency across contributions, we ask that all contributors adhere to the following guidelines:
 
-General Coding Guidelines
-To maintain a high standard of quality and ensure consistency across contributions, we ask that all contributors adhere to the following guidelines:
-
-Coding Style
-Naming Conventions:
-Use snake_case for variable names and function names.
-Use camelCase only if you're contributing to an existing script that predominantly uses camelCase, to maintain consistency within the script.
-Comments and Docstrings:
+**Coding Style**<br>
+Naming Conventions:<br>
+Use snake_case or camelCase for variable names and function names. If you add a file to an existing script, maintain consistency within the script.
+Comments and Docstrings:<br>
 Provide comments and explanations as needed to clarify complex logic or decisions made in your code. Avoid over-commenting by explaining only where necessary.
-Use # for comments. Start with a single-line comment at the top if you wish to include the author's name, webpage, or email.
-For scripts where the title might not sufficiently explain the purpose, include a docstring at the beginning of your script with a brief explanation of its functionality.
+Use # for comments. If you wish to include the author's name, webpage, or email, start with a single-line comment at the top of the code.
+For scripts where the title might not sufficiently explain the purpose, include a docstring after the imports of your script with a brief explanation of its functionality. Keep it short and simple.
+See the following example for a docstring.
+
+<pre lang="python"><code>
+import clr
+clr.AddReference("RevitAPI")
+from Autodesk.Revit.DB import XYZ
+
+"""
+    This script creates a model curve by the end points of two model curves
+    - Run
+    - Select point on first model curve near the desired end
+    - Select point on second model curve near the desired end
+    - Finish selection
+    - Model curve will be created with the same line style as selected model curve
+"""
+
+doc = DocumentManager.Instance.CurrentDBDocument
+uiapp = DocumentManager.Instance.CurrentUIApplication
+
+rest of code
+</code></pre>
+
+
 File Naming Rules
 Method or Task Representation: Scripts that encapsulate methods or tasks should be categorized into one of four versions: basic, advanced, function, example. Each version addresses a different level of complexity or use-case scenario.
 
