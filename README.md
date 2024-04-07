@@ -124,13 +124,27 @@ OUT = active_sheet
 </code></pre>
 
 **Example** code demonstrates the use of the task in a larger workflow./b This gives the ability to use all possible API methods and properties related to the task.
+
 See this link for an example: [Create Material](https://www.revitpythondocs.com/?search=Create%20Material)
 
 A **Tool** is a larger, scripts encompassing multiple tasks or complex functionalities. Include a docstring at the beginning of the script, briefly explaining its purpose and any necessary background information.
-See this example for a tool:([Model Curve By Curve Endpoints](https://www.revitpythondocs.com/?search=Tool%20Model%20Curve%20By%20Curve%20Endpoints)
 
-Contributing to the Repository
-We welcome contributions from everyone! To contribute your script:
+See this example for a tool:[Model Curve By Curve Endpoints](https://www.revitpythondocs.com/?search=Tool%20Model%20Curve%20By%20Curve%20Endpoints)
+
+**Contributing to the Repository**
+We welcome contributions from everyone! To contribute your files it is **essential to follow the file name convention**. 
+The process of loading your files to [revitpythondocs.com](https://www.revitpythondocs.com) is **fully automated** and can only work if you filenames are correct.
+
+**File Name Convention**
+
+Let´s look at an example and break it down:
+
+**CreateMaterial_advanced_ironpython_cpython_2022_2023_2024.py**
+
++ The **script name** is the first part of the file name. Use CamelCase and the phrases will be seperated on the webpage later.
++ Provide the **code version**: **basic, advanced, function, example** or **tool**.
++ Provide a **python version**. Use can use ironpython, cpython or ironpython_cpython.
++ Provide the 
 
 Fork the Repository: Start by forking this repository to your GitHub account.
 Add Your Script: Place your script in the appropriate directory (Dynamo or pyRevit). Ensure it adheres to the naming rules and guidelines mentioned above.
