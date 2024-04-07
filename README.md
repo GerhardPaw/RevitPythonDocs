@@ -20,7 +20,7 @@ For scripts where the title might not sufficiently explain the purpose, include 
 File Naming Rules
 Method or Task Representation: Scripts that encapsulate methods or tasks should be categorized into one of four versions: basic, advanced, function, example. Each version addresses a different level of complexity or use-case scenario.
 
-Basic code represents the most simple but working code that demonstrates the use of the task.
+**Basic** code represents the most simple but working code that demonstrates the use of the task.
 A basic code must not handle errors or varying inputs what is why it will not work for every scenario. Also it will not give user feedback and might fail silently.
 See the following basic code for getting the active sheet.
 
@@ -41,7 +41,7 @@ if active_view.Category.Id == ElementId(BuiltInCategory.OST_Sheets):
 OUT = active_sheet
 </code></pre>
 
-Advanced code raises errors where necessary to give proper feedback to users.
+**Advanced** code raises errors where necessary to give proper feedback to users.
 Keep in mind that Dynamo already handles pretty much all exceptions itself what is why an excessive error handling is not necessary.
 The error handling should focus on raising exceptions for null values to nprevent the code from failing silently.
 If the script uses node inputs these have to be correctly handled for single elements and lists.
@@ -65,7 +65,7 @@ if active_view.Category.Id != ElementId(BuiltInCategory.OST_Sheets):
 OUT = active_view
 </code></pre>
 
-Function code encapsulates the whole task into a function and calls it accordingly.
+**Function** code encapsulates the whole task into a function and calls it accordingly.
 This code should handle errors and work for single element and list inputs.
 
 <pre lang="python"><code>
@@ -90,7 +90,7 @@ active_sheet = get_active_sheet()
 OUT = active_sheet
 </code></pre>
 
-example: Provides fully-fledged examples demonstrating practical applications.
+**Example** code demonstrates the use of the task in a larger workflow./b This gives the ability to use all possible API methods and properties related to the task.
 Larger, Multi-Task Scripts: Scripts encompassing multiple tasks or complex functionalities should be tagged as tool in their filename. Include a docstring at the beginning of the script, briefly explaining its purpose and any necessary background information.
 
 Contributing to the Repository
