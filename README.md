@@ -129,7 +129,7 @@ See this link for an example: [Create Material](https://www.revitpythondocs.com/
 
 A **Tool** is a larger, scripts encompassing multiple tasks or complex functionalities. Include a docstring at the beginning of the script, briefly explaining its purpose and any necessary background information.
 
-See this example for a tool:[Model Curve By Curve Endpoints](https://www.revitpythondocs.com/?search=Tool%20Model%20Curve%20By%20Curve%20Endpoints)
+See this example for a tool:[Model Curve By Curve Endpoints](https://www.revitpythondocs.com/?search=Model%20Curve%20By%20Curve%20Endpoints)
 
 **Contributing to the Repository**
 
