@@ -1,5 +1,5 @@
 # RevitPythonDocs
-Collection of Python Scripts for Dynamo and pyRevit
+Collection of Python Scripts for Dynamo and pyRevit.
 
 **Welcome** to the revitpythondocs repository.<br>
 This repository aims to foster a community-driven collection of scripts to enhance productivity and extend functionality within Revit through Python scripting.
@@ -10,12 +10,16 @@ This repo is dependent on your contribution.
 To maintain a proper standard of quality and ensure consistency across contributions, we ask that all contributors adhere to the following guidelines.<br>
 
 **Coding Style**<br>
-Naming Conventions:<br>
 Use snake_case or camelCase for variable names and function names. If you add a file to an existing script, maintain consistency within the script.<br>
+
+**Imports**<br>
+Necessary imports only as it helps beginners to get a better understanding for importing.<br>
 
 **Comments and Docstrings:**<br>
 Provide comments and explanations as needed to clarify complex logic or decisions made in your code. Avoid over-commenting by explaining only where necessary.
 Use # for comments. If you wish to include the author's name, webpage, or email, start with a single-line comment at the top of the code.
+
+
 For scripts where the title might not sufficiently explain the purpose, include a docstring after the imports of your script with a brief explanation of its functionality. Keep it short and simple.<br>
 See the following example for a docstring.
 
@@ -120,6 +124,8 @@ OUT = active_sheet
 </code></pre>
 
 **Example** code demonstrates the use of the task in a larger workflow./b This gives the ability to use all possible API methods and properties related to the task.
+See this link for an example: [Create Material](https://www.revitpythondocs.com/?search=Create%20Material)
+
 Larger, Multi-Task Scripts: Scripts encompassing multiple tasks or complex functionalities should be tagged as tool in their filename. Include a docstring at the beginning of the script, briefly explaining its purpose and any necessary background information.
 
 Contributing to the Repository
