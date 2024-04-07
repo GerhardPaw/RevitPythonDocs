@@ -3,7 +3,7 @@ Collection of Python Scripts for Dynamo and pyRevit
 
 **Welcome** to the revitpythondocs repository.<br>
 This repository aims to foster a community-driven collection of scripts to enhance productivity and extend functionality within Revit through Python scripting.
-The Python files contributed to this repo will automatically be loaded on revitpythondocs.com. <br>
+The Python files contributed to this repo will automatically be loaded on [revitpythondocs.com](https://www.revitpythondocs.com) <br>
 
 **General Coding Guidelines**<br>
 This repo is dependent on your contribution.
