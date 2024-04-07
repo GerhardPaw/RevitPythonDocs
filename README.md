@@ -40,7 +40,13 @@ rest of code
 </code></pre>
 
 **Script versions**
-Scripts that represent a method or a single task have to be be categorized into one of four versions: **basic**, **advanced**, **function**, **example**. Each version addresses a different level of complexity or use-case scenario. <br>
+Scripts that represent a method or a single task have to be be categorized into one of four versions: 
++ **basic**
++ **advanced**
++ **function**
++ **example**.
+
+Each version addresses a different level of complexity or use-case scenario. <br>
 A more complex script that processes multiple task has to be categorized as a **tool**.
 
 **Basic** code represents the most simple but working code that demonstrates the use of the task.
