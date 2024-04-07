@@ -154,6 +154,10 @@ Let´s look at an example and break it down:
 + Providea single or multiple **Revit version**.
 + The file name has to end with **.py**
 
+As you can see, files that have the same script name will be combined into one button on the webpage.
+It is your choice if you want to contribute the code in one or multiple versions.
+Please add only Python version (ironpython, cpython) and Revit version (2022,2023,2024) attributes if you tested the script for the corresponding version. 
+
 This was an easy example.
 
 Note that a script that does not work the same for both Python versions or for different Revit versions will need much more files to provide all possible buttons/versions.
@@ -177,15 +181,16 @@ A more complex example to show how many files one script can contain could be a 
 **ExampleScript_example_cpython_2022.py**<br>
 **ExampleScript_example_cpython_2023_2024.py**<br>
 
-As you can see, files that have the same script name will be combined into one button on the webpage.
-It is your choice if you want to contribute the code in one or multiple versions.
-Please add only Python version (ironpython, cpython) and Revit version (2022,2023,2024) attributes if you tested the script for the corresponding version. 
+**Github Workflow:**
 
 Fork the Repository: Start by forking this repository to your GitHub account.
-Add Your Script: Place your script in the appropriate directory (Dynamo or pyRevit). Ensure it adheres to the naming rules and guidelines mentioned above.
-Document Your Code: Include comments, a docstring if necessary, and ensure your code follows the prescribed coding style.
-Create a Pull Request (PR): Once you've added your script, create a pull request to the main repository. In your PR, provide a brief overview of your script and its purpose.
-Review: Your PR will be reviewed by the community. This process ensures that contributions align with the project's goals and quality standards. You may be asked to make revisions based on feedback.
-By following these guidelines, we can together build a valuable resource for all Revit users looking to leverage Python for automation and customization. Your contributions not only help grow this repository but also support the broader Revit community in exploring new possibilities.
+Add Your Script: Place your script in the appropriate directory (Dynamo or pyRevit). Ensure it adheres to the **naming rules and guidelines** mentioned above.<br>
+Create a Pull Request (PR): Once you've added your script, create a pull request to the main repository. <br>
+Pull Requests that contain only file additions but no file edits will be pushed automatically to the main branch about every hour.
+Frequent users are encouraged to ask for collaborators status. 
+
+By following these guidelines, we can together build a valuable resource for all Revit users looking to leverage Python for automation and customization. 
+
+Your contributions not only help grow this repository but also support the broader Revit community in exploring new possibilities.
 
 **Thank you for contributing and happy scripting!**
