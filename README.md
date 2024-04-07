@@ -157,32 +157,24 @@ This was an easy example.
 
 Note that a script that does not work the same for both Python versions or for different Revit versions will need much more files to provide all possible buttons/versions.
 
-A more complex example could be a script that works different for both python versions and additionally changed from Revit version 22 to 23:
+A more complex example to show how many files one script can contain could be a script that works different for both python versions and additionally changed from Revit version 22 to 23:
 
 + **ExampleScript_basic_ironpython_2022.py**
 + **ExampleScript_basic_ironpython_2023_2024.py**
 + **ExampleScript_basic_cpython_2022.py**
 + **ExampleScript_basic_cpython_2023_2024.py**
-
 + **ExampleScript_advanced_ironpython_2022.py**
 + **ExampleScript_advanced_ironpython_2023_2024.py**
 + **ExampleScript_advanced_cpython_2022.py**
 + **ExampleScript_advanced_cpython_2023_2024.py**
-  
++ **ExampleScript_function_ironpython_2022.py**
 + **ExampleScript_function_ironpython_2023_2024.py**
-+ **ExampleScript_example_ironpython_2023_2024.py**
-
-
-+ **ExampleScript_function_cpython_2023_2024.py**
-+ **ExampleScript_example_python_2023_2024.py**
-
-
-+ **ExampleScript_function_ironpython_20224.py**
-+ **ExampleScript_example_ironpython_2022.py**
-
-
 + **ExampleScript_function_cpython_2022.py**
-+ **ExampleScript_example_python_2022.py**
++ **ExampleScript_function_cpython_2023_2024.py**
++ **ExampleScript_example_ironpython_2022.py**
++ **ExampleScript_example_ironpython_2023_2024.py**
++ **ExampleScript_example_cpython_2022.py**
++ **ExampleScript_example_cpython_2023_2024.py**
 
 As you can see, files that have the same script name will be combined into one button on the webpage.
 It is your choice if you want to contribute the code in one or multiple versions.
