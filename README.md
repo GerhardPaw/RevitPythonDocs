@@ -12,6 +12,15 @@ To maintain a proper standard of quality and ensure consistency across contribut
 **Coding Style**<br>
 Use snake_case or camelCase for variable names and function names. If you add a file to an existing script, maintain consistency within the script.<br>
 
+**Whitespace**<br>
+Spaces only, don´t use tabs in your code.<br>
+Due to the sensitivity of Python when mixing spaces and tabs we have to be consistent in using spaces only to make the cody valid for copy/paste operations in our coding.
+
+**Error and Transaction Handling**<br>
+Keep in mind that dynamo does most of the work itself already.
+Excessive error handling (catching exceptions) and advanced transaction handling (rollbacks) are not necessary in dynamo code.<br>
+See the section for advanced code version for more information and an example on error handling.
+
 **Imports**<br>
 Necessary imports only as it helps beginners to get a better understanding for importing.<br>
 
