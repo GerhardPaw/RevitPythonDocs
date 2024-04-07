@@ -3,19 +3,20 @@ Collection of Python Scripts for Dynamo and pyRevit
 
 **Welcome** to the revitpythondocs repository.<br>
 This repository aims to foster a community-driven collection of scripts to enhance productivity and extend functionality within Revit through Python scripting.
-The Python files contributed to this repo will automatically be loaded on revitpythondocs.com. 
+The Python files contributed to this repo will automatically be loaded on revitpythondocs.com. <br>
 
 **General Coding Guidelines**<br>
 This repo is dependent on your contribution.
-To maintain a proper standard of quality and ensure consistency across contributions, we ask that all contributors adhere to the following guidelines:
+To maintain a proper standard of quality and ensure consistency across contributions, we ask that all contributors adhere to the following guidelines.<br>
 
 **Coding Style**<br>
 Naming Conventions:<br>
-Use snake_case or camelCase for variable names and function names. If you add a file to an existing script, maintain consistency within the script.
-Comments and Docstrings:<br>
+Use snake_case or camelCase for variable names and function names. If you add a file to an existing script, maintain consistency within the script.<br>
+
+**Comments and Docstrings:**<br>
 Provide comments and explanations as needed to clarify complex logic or decisions made in your code. Avoid over-commenting by explaining only where necessary.
 Use # for comments. If you wish to include the author's name, webpage, or email, start with a single-line comment at the top of the code.
-For scripts where the title might not sufficiently explain the purpose, include a docstring after the imports of your script with a brief explanation of its functionality. Keep it short and simple.
+For scripts where the title might not sufficiently explain the purpose, include a docstring after the imports of your script with a brief explanation of its functionality. Keep it short and simple.<br>
 See the following example for a docstring.
 
 <pre lang="python"><code>
@@ -38,9 +39,9 @@ uiapp = DocumentManager.Instance.CurrentUIApplication
 rest of code
 </code></pre>
 
-
-File Naming Rules
-Method or Task Representation: Scripts that encapsulate methods or tasks should be categorized into one of four versions: basic, advanced, function, example. Each version addresses a different level of complexity or use-case scenario.
+**Script versions**
+Scripts that represent a method or a single task have to be be categorized into one of four versions: **basic**, **advanced**, **function**, **example**. Each version addresses a different level of complexity or use-case scenario. <br>
+A more complex script that processes multiple task has to be categorized as a **tool**.
 
 **Basic** code represents the most simple but working code that demonstrates the use of the task.
 A basic code must not handle errors or varying inputs what is why it will not work for every scenario. Also it will not give user feedback and might fail silently.
