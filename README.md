@@ -181,6 +181,20 @@ A more complex example to show how many files one script can contain could be a 
 **ExampleScript_example_cpython_2022.py**<br>
 **ExampleScript_example_cpython_2023_2024.py**<br>
 
+**Geometry**
+
+If the script uses geometry object you have to specify if you are using **designscript** or **revitdb** geometry.
+The corresponding buttons will be created if you add a geometry to your file name.
+
+You can only use **one** geometry version in you file name. If your file is dealing with designscript and revitdb geometry, don´t add a geometry information.
+
+<img src="https://github.com/GerhardPaw/RevitPythonDocs/assets/97836426/edc92d85-38dd-438b-b838-1404dd564a95" width="500" >
+
+**SolidFaces_basic_designscript_ironpython_cpython_2022_2023_2024.py**<br>
+**SolidFaces_basic_revitdb_ironpython_cpython_2022_2023_2024.py**<br>
+**SolidFaces_function_designscript_ironpython_cpython_2022_2023_2024.py**<br>
+**SolidFaces_function_revitdb_ironpython_cpython_2022_2023_2024.py**<br>
+
 **Github Workflow:**
 
 Fork the Repository: Start by forking this repository to your GitHub account.
