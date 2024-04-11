@@ -10,6 +10,7 @@ from Autodesk.Revit.DB import FilteredElementCollector, BuiltInCategory
 
 doc = DocumentManager.Instance.CurrentDBDocument
 
+# Create dictionary of all viewports and their id
 viewport_dict = {vp.ViewId: vp for vp in FilteredElementCollector(doc)
                  .OfCategory(BuiltInCategory.OST_Viewports)
                  .WhereElementIsNotElementType()
