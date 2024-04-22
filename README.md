@@ -53,6 +53,7 @@ rest of code
 </code></pre>
 
 **Script versions**
+
 Scripts that represent a method or a single task have to be be categorized into one of four versions: 
 + **basic**
 + **advanced**
