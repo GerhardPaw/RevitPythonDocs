@@ -14,7 +14,7 @@ Use snake_case or camelCase for variable names and function names. If you add a 
 
 **Whitespace**<br>
 Spaces only, don´t use tabs in your code.<br>
-Due to the sensitivity of Python when mixing spaces and tabs we have to be consistent in using spaces only to make the cody valid for copy/paste operations in our coding.
+Due to the sensitivity of Python when mixing spaces and tabs we have to be consistent in using spaces only to make the code valid for copy/paste operations in our coding.
 
 **Error and Transaction Handling**<br>
 Keep in mind that dynamo does most of the work itself already.
